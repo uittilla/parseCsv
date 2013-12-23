@@ -1,0 +1,28 @@
+    parse: function (data) {
+/**
+"use strict";
+    filename: null,
+ */
+
+    save: function() {
+
+ *
+Fs  = require('fs');
+Parser = {
+    shuffle: function(array) {
+    open: function () {
+
+     *
+var Url, Fs, Parser;
+/**
+    init: function(filename) {
+    /**
+ * @type {{links: {}, init: Function, open: Function, parse: Function}}
+ * Take a long list of links and reduce it to a maximim of 20 links per domain
+ *
+Url = require('url');
+    reduce: function() {
+ * Author Mark Ibbotson
+
+ */
+    links: {},

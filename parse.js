@@ -1,5 +1,9 @@
 "use strict";
 
+/**
+ * Author Mark Ibbotson
+ */
+
 var Url, Fs, Parser;
 
 Url = require('url');
@@ -136,7 +140,7 @@ Parser = {
     }
 }
 
-var parser = Parser.init("./Ryan_Air.csv");
+var parser = Parser.init(process.argv[2]);
 
 parser.open();
 
