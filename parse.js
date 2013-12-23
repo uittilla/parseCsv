@@ -85,8 +85,8 @@ Parser = {
         var self = this;
 
         Object.keys(self.links).forEach(function(key){
-            if(self.links[key].length > 20) {
-                self.links[key] = self.links[key].splice(0, 20)
+            if(self.links[key].length > 50) {
+                self.links[key] = self.links[key].splice(0, 50)
             }
         });
 
@@ -140,7 +140,15 @@ Parser = {
     }
 }
 
+<<<<<<< HEAD
+var parser = Parser.init(process.argv[2]);
+=======
+if(process.argv.length < 3) {
+   console.log("Usage: node parse.js <input.csv>");
+   process.exit();
+}
+>>>>>>> 590c049820c459c878b703cf5238d27de62299d2
+
 var parser = Parser.init(process.argv[2]);
 
 parser.open();
-
